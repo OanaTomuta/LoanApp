@@ -1,0 +1,28 @@
+aplicatie de evidenta datoriilor :
+
+Avem username/email unic si ne adaugam prieteni in functie de asta
+Notificare de intelegere/ prieten nou 
+
+
+HOME SCREEN -> 2 carduri -> search bar + add button
+
+Cand creem o datorie, selectam un prieten si se creaza un formular automat -> trimite notificare
+homepage: Overall (primit/ de dat) + 2 carduri (datorie sau de primit) -> cati bani ai dat in datorie si cati iti sunt datorati
+pentru intrarile din carduri : pagina in care platesti o datorie sa poti apasa pe buton care te trimite la terminalul de tranzactie,
+			       SAU trimiti un mesaj "Bai, da-mi banii"
+
+exemplu de entry in baza de date: dator - indatorat - currency (valuta fiat) - ammout - date - decriere (optional) - poza bon (optional cu upload file) - tranzactie
+				  "user1" "mesaj tipic actiunii" - exemplu de notificare
+
+Cand se da submit la un formular de datorie:
+"user1" <"tipul de actiune"> "user2" 
+
+facem querry pentru tine, daca esti pe prima pozitie, cauti la cine esti dator
+daca esti pe a doua pozitie, cauti cine iti datoreaza tie
+
+in baza de date salvam toate tranzactiile si atunci facem un filtru dupa cui datorezi SAU cine iti datoreaza bani 
+
+API pentru currency conversion
+API la revolut ca sa simulam tranzactiile
+
+INBOX SCREEN -> mesajele
